@@ -5,8 +5,8 @@ import UserList from "../components/users/UsersList";
 const Users = () => {
   return (
     <>
-      <UserList />
       <AddUser />
+      <UserList />
       <EditUser />
     </>
   );

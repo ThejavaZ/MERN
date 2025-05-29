@@ -23,6 +23,12 @@ importers:
       tailwindcss:
         specifier: ^4.1.8
         version: 4.1.8
+      uniqid:
+        specifier: ^5.4.0
+        version: 5.4.0
+      uniqueid:
+        specifier: ^1.0.0
+        version: 1.0.0
     devDependencies:
       '@eslint/js':
         specifier: ^9.25.0
@@ -1204,6 +1210,12 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
+  uniqid@5.4.0:
+    resolution: {integrity: sha512-38JRbJ4Fj94VmnC7G/J/5n5SC7Ab46OM5iNtSstB/ko3l1b5g7ALt4qzHFgGciFkyiRNtDXtLNb+VsxtMSE77A==}
+
+  uniqueid@1.0.0:
+    resolution: {integrity: sha512-ld2Q+o9GVX7YY0HL7kEmkCJMc0G1Fmj1KNgIiUuJmzh9U6eFe/E6MQndKJLthUSHRft6tXDmu7OXtR7ZBkftag==}
+
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
@@ -2262,6 +2274,10 @@ snapshots:
       - supports-color
 
   typescript@5.8.3: {}
+
+  uniqid@5.4.0: {}
+
+  uniqueid@1.0.0: {}
 
   uri-js@4.4.1:
     dependencies:
